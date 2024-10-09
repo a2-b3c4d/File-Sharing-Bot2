@@ -1,2 +1,2 @@
-worker: python3 main.py
-https://koyeb.com/e/run
+web: python3 main.py
+
