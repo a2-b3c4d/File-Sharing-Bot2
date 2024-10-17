@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/aeon_kun>ᴬᵉᵒⁿ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/aeon_kun>ᴬᵉᵒⁿ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>",
+            text = f"<b> •Creator : Aeon  </b>  ",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
